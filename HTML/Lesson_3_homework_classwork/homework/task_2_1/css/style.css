@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#header, #footer {
+    background-color: #aaff8a;
+    height: 100px;
+}
+
+.box {
+    display: flex;
+}
+
+#menu {
+    background-color: #ffb0fe;
+    width: 400px;
+    height: 500px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.post {
+    background-color: red;
+    flex-grow: 1;
+}
